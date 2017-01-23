@@ -20,10 +20,24 @@ var listPage = document.getElementById('listMusic')
 var addPage = document.getElementById('addMusic')
 
 addView.addEventListener('click', function() {
-	listPage.setAttribute("class", "hidden")
 	addPage.classList.remove("hidden")
+	listPage.setAttribute("class", "hidden")
 	homePage.setAttribute("class", "hidden")
-	// console.log("werd")
+	console.log("werd")
+})
+
+listView.addEventListener('click', function() {
+	listPage.classList.remove("hidden")
+	addPage.classList.add("hidden")
+	homePage.classList.add("hidden")
+	console.log("werd")
+})
+
+homeView.addEventListener('click', function() {
+	homePage.classList.remove("hidden")
+	listPage.classList.add("hidden")
+	addPage.classList.add("hidden")
+	console.log("werd")
 })
 
 

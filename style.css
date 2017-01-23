@@ -9,3 +9,7 @@ select {
 form {
 	margin: 10% 0;
 }
+
+.hidden {
+	display: none;
+}
