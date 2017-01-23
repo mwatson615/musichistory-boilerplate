@@ -1,0 +1,11 @@
+body {
+	background: lightgrey;
+}
+
+select {
+	margin: 5% 0;
+}
+
+form {
+	margin: 10% 0;
+}
