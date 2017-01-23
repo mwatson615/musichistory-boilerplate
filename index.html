@@ -9,16 +9,25 @@
 
 <body>
 	<nav>
-		<a href="#">Home</a>
-		<a href="#">List Music</a>
-		<a href="#">Add Music</a>
+		<a id="homeView" href="#">Home</a>
+		<a id="listView" href="#">List Music</a>
+		<a id="addView" href="#">Add Music</a>
 	</nav>
-	<h1>Music History 1</h1>
-	<div class="home">
-		
+	<div id="home">
+		<h1>Music History 3</h1>
 	</div>
-	<div class="listMusic hidden">
-		
+
+	<div id="addMusic" class="addMusic hidden">
+		<input id="artistInput" type="text" name="" placeholder="Artist...">
+		<input id="albumInput" type="text" name="" placeholder="Album...">
+		<input id="songInput" type="text" name="" placeholder="Song...">
+		<button id="addButton">Add</button>
+	</div>
+
+	<div id="listMusic" class="listMusic hidden">
+		<div id="songList">
+			
+		</div>
 	</div>
 	<!-- <div class="artists">
 		<select>Artist
